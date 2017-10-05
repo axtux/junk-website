@@ -4,8 +4,6 @@ session_start();
 
 include('messages.php');
 
-var_dump($_POST);
-
 if(isset($_POST['name']) && isset($_FILES['file']))
 {
   $_SESSION['name'] = $_POST['name'];
